@@ -19,7 +19,7 @@ while read p; do
 ${p}"
 done <<< ${todos}
 
-readonly tag="repo:${repo}"
+readonly tag="code-snip"
 
 #Create todo
-open "things:///add?title=${filename}&notes=${notes}&checklist-items=${checklist}&list=${repo}&tags=${tag}&show-quick-entry=true&reveal=true"
+open "things:///add?title=${filename}&notes=${notes}&checklist-items=${checklist}&list=${repo}&tags=${tag}&show-quick-entry=true&reveal=false"
